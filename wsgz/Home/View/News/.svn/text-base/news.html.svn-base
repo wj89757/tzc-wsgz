@@ -1,0 +1,58 @@
+<div class="jumbotron">
+	<div class="container">
+		<h1>咨讯</h1>
+		<h4>有关的最新动态，资源等...</h4>
+	</div>
+</div>
+
+<div id="information">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="container-fluid" style="padding:0px">
+					<foreach item="obj" name="list">
+						<div class="row info-content">
+							<div class="col-md-5 col-sm-5 col-xs-5">
+								<!-- <img src={$obj.message_photo} class="img-responsive">
+								-->
+								<img src="__PUBLIC__/img/default.png" class="img-responsive"></div>
+							<div class="col-md-7 col-sm-7 col-xs-7">
+								<h4>
+									<a href={:U('News/newshow',array('id'=>$obj['message_id']))} >{$obj.message_title}</a>
+								</h4>
+								<a href={:U('News/newshow',array('id'=>
+									$obj['message_id']))}>
+									<p class="hidden-xs">{$obj.message_overview}</p>
+								</a>
+								<p class="marp">{$obj.message_author} {$obj.message_time}</p>
+							</div>
+						</div>
+					</foreach>
+					<div class="pagination">{$page}</div>
+
+				</div>
+			</div>
+			<div class="col-md-4 info-right hidden-xs hidden-sm">
+				<blockquote>
+					<h2>热门资讯</h2>
+				</blockquote>
+				<div class="container-fluid">
+					<foreach item="item" name="hitlist">
+						<div class="row">
+							<div class="col-md-5 col-sm-5 col-xs-5" style="margin:12px 0;padding:0">
+								<!-- <img src={$obj.message_photo} class="img-responsive">
+								-->
+								<img src="__PUBLIC__/img/default.png" class="img-responsive"></div>
+							<div class="col-md-7 col-sm-7 col-xs-7" style="padding-right: 0">
+								<h4>
+									<a href={:U('News/newshow',array('id'=>$obj['message_id']))}>{$item.message_title}</a>
+								</h4>
+								<p>{$item.message_author} {$item.message_time}</p>
+							</div>
+						</div>
+					</foreach>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

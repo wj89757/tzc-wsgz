@@ -1,0 +1,41 @@
+[ 2018-10-03T10:27:58+08:00 ] 127.0.0.1 /wushuigongzhi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_M - assumed 'SAE_MYSQL_HOST_M' /Users/wangjun/timwang/codeArea/wushuigongzhi/wsgz/Home/Conf/config.php 第 9 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_HOST_S - assumed 'SAE_MYSQL_HOST_S' /Users/wangjun/timwang/codeArea/wushuigongzhi/wsgz/Home/Conf/config.php 第 9 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_DB - assumed 'SAE_MYSQL_DB' /Users/wangjun/timwang/codeArea/wushuigongzhi/wsgz/Home/Conf/config.php 第 10 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_USER - assumed 'SAE_MYSQL_USER' /Users/wangjun/timwang/codeArea/wushuigongzhi/wsgz/Home/Conf/config.php 第 11 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PASS - assumed 'SAE_MYSQL_PASS' /Users/wangjun/timwang/codeArea/wushuigongzhi/wsgz/Home/Conf/config.php 第 12 行.
+NOTIC: [8] Use of undefined constant SAE_MYSQL_PORT - assumed 'SAE_MYSQL_PORT' /Users/wangjun/timwang/codeArea/wushuigongzhi/wsgz/Home/Conf/config.php 第 13 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+NOTIC: [2] PDO::__construct(): php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known /Users/wangjun/timwang/codeArea/wushuigongzhi/ThinkPHP/Library/Think/Db/Driver.class.php 第 103 行.
+NOTIC: [8] Undefined index: debug /Users/wangjun/timwang/codeArea/wushuigongzhi/ThinkPHP/Library/Think/Db/Driver.class.php 第 108 行.
+NOTIC: [8] Undefined offset: 0 /Users/wangjun/timwang/codeArea/wushuigongzhi/ThinkPHP/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] PDO::__construct(): php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known /Users/wangjun/timwang/codeArea/wushuigongzhi/ThinkPHP/Library/Think/Db/Driver.class.php 第 103 行.
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known
+NOTIC: [2] PDO::__construct(): php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known /Users/wangjun/timwang/codeArea/wushuigongzhi/ThinkPHP/Library/Think/Db/Driver.class.php 第 103 行.
+NOTIC: [8] Undefined index: debug /Users/wangjun/timwang/codeArea/wushuigongzhi/ThinkPHP/Library/Think/Db/Driver.class.php 第 108 行.
+NOTIC: [8] Undefined offset: 1 /Users/wangjun/timwang/codeArea/wushuigongzhi/ThinkPHP/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] PDO::__construct(): php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known /Users/wangjun/timwang/codeArea/wushuigongzhi/ThinkPHP/Library/Think/Db/Driver.class.php 第 103 行.
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known
+NOTIC: [2] PDO::__construct(): php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known /Users/wangjun/timwang/codeArea/wushuigongzhi/ThinkPHP/Library/Think/Db/Driver.class.php 第 103 行.
+NOTIC: [8] Undefined index: debug /Users/wangjun/timwang/codeArea/wushuigongzhi/ThinkPHP/Library/Think/Db/Driver.class.php 第 108 行.
+NOTIC: [8] Undefined offset: 1 /Users/wangjun/timwang/codeArea/wushuigongzhi/ThinkPHP/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /Users/wangjun/timwang/codeArea/wushuigongzhi/wsgz/Home/Controller/IndexController.class.php on line 25 and defined /Users/wangjun/timwang/codeArea/wushuigongzhi/ThinkPHP/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /Users/wangjun/timwang/codeArea/wushuigongzhi/ThinkPHP/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008953s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000609s ]
+

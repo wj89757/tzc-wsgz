@@ -1,0 +1,101 @@
+<div class="col-md-3 col-sm-4 col-lg-3 col-xs-4">
+    <ul class="list-group">
+        <li class="list-group-item itemfix">
+            <a href={:U('Personal/noticelist')}>
+                <span class="glyphicon glyphicon-phone-alt"></span>
+                &nbsp;投诉信息管理
+            </a>
+        </li>
+        <li class="list-group-item itemfix">
+            <a href={:U('Personal/articlelist')}>
+                <span class="glyphicon glyphicon-edit"></span>
+                &nbsp;增改治水新闻
+            </a>
+        </li>
+
+        <li class="list-group-item itemfix" id="infocol">
+            <a href="#"}>
+                <span class="glyphicon glyphicon-comment"></span>
+                &nbsp;信息会展管理
+            </a>
+        </li>
+        <li class="list-group-item itemfix" id="reproject" style="display: none">
+            <a href={:U('Personal/waterproject')} style="color:#99cccc">
+                <span class="glyphicon glyphicon-th-list"></span>
+                &nbsp;治水项目发布
+            </a>
+        </li>
+        <li class="list-group-item itemfix" id="savecom" style="display: none">
+            <a href={:U('Personal/watercompany')} style="color:#99cccc">
+                <span class="glyphicon glyphicon-tint"></span>
+                &nbsp;节水企业增加
+            </a>
+        </li>
+        <li class="list-group-item itemfix" id="rivercol" style="display: none">
+            <a href={:U('Personal/waterroad')} style="color:#99cccc">
+                <span class="glyphicon glyphicon-grain"></span>
+                &nbsp;河道信息管理
+            </a>
+        </li>
+
+        <li class="list-group-item itemfix" id="upload">
+            <a href="#">
+                <span class="glyphicon glyphicon-list-alt"></span>
+                &nbsp;治水文件上传
+            </a>
+        </li>
+        <li class="list-group-item itemfix" id="province" style="display: none">
+            <a href={:U('Personal/waterprovince')} style="color:#99cccc">
+                <span class="glyphicon glyphicon-grain"></span>
+                &nbsp;省市简报上传
+            </a>
+        </li>
+        <li class="list-group-item itemfix" id="waterdocument" style="display: none">
+            <a href={:U('Personal/waterdocument')} style="color:#99cccc">
+                <span class="glyphicon glyphicon-grain"></span>
+                &nbsp;政策文件上传
+            </a>
+        </li>
+
+        <li class="list-group-item itemfix">
+            <a href={:U('Personal/pwdfix')}>
+                <span class="glyphicon glyphicon-pencil"></span>
+                &nbsp;修改密码
+            </a>
+        </li>
+    </ul>
+</div>
+
+<script type="text/javascript">
+    window.onload = function (){
+        var info = document.getElementById('infocol');
+        var pro = document.getElementById('reproject');
+        var save = document.getElementById('savecom');
+        var river = document.getElementById('rivercol');
+        var upload = document.getElementById('upload');
+        var vince = document.getElementById('province');
+        var waterdocument = document.getElementById('waterdocument');
+
+        info.onclick = function() {
+            if(pro.style.display == 'block'){
+                pro.style.display = 'none';
+                save.style.display = 'none';
+                rivercol.style.display = 'none';
+            }else{
+                pro.style.display = 'block';
+                save.style.display = 'block';
+                rivercol.style.display = 'block';
+            }
+        };
+
+        upload.onclick = function() {
+            if(vince.style.display == 'block'){
+                vince.style.display = 'none';
+                waterdocument.style.display = 'none';
+            }else{
+                vince.style.display = 'block';
+                waterdocument.style.display = 'block';
+            }
+        };
+    };
+</script>

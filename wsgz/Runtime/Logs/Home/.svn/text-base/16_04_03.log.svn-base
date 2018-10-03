@@ -1,0 +1,10 @@
+[ 2016-04-03T21:53:33+08:00 ] 127.0.0.1 /wsgz/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.039002s ]
+
+[ 2016-04-03T21:53:41+08:00 ] 127.0.0.1 /wsgz/home/index/comshow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+

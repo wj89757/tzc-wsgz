@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- 分别为：屏幕宽度和设备一直，初始缩放比例，最大缩放比例和禁止用户缩放 -->
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<block name="title">
+		<title>{$title}</title>
+	</block>
+	<link rel="stylesheet" href="__PUBLIC__/css/bootstrap.min.css">
+	<link rel="stylesheet" href="__PUBLIC__/css/style.css"></head>
+<body>
+	<!-- 响应式导航条 -->
+	<include file="Public/nav" />
+	{__CONTENT__}
+	<!-- footer底部 -->
+	<include file="Public/footer" />
+
+	<script src="__PUBLIC__/js/jquery.min.js"></script>
+	<script src="__PUBLIC__/js/bootstrap.min.js"></script>
+	<script type="text/javascript"></script>
+</body>
+</html>

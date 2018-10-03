@@ -1,0 +1,53 @@
+<div class="jumbotron">
+	<div class="container">
+		<h1>治水百科</h1>
+		<h4>省市政策文件，省市简报，五水共治办，治水采纳建议...</h4>
+	</div>
+</div>
+<div id="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 hidden-xs">
+				<div class="list-group">
+					<a href="#1" class="list-group-item">1.省市政策文件</a>
+					<a href="#2" class="list-group-item">2.省市简报</a>
+					<a href="#3" class="list-group-item">3.联系方式</a>
+				</div>
+			</div>
+			<div class="col-md-9 about">
+				<div class="box">
+					<a name="1"></a>
+					<h3>省市政策文件</h3>
+					<foreach item="obj" name="list">
+						<h4 style="color:#666">第{$obj.provinces_id}篇：【{$obj.provinces_title}】</h4>
+						<p>{$obj.provinces_content}</p>
+						<hr style="FILTER: progid:DXImageTransform.Microsoft.Glow(color=#987cb9,strength=10)" width="80%" color=#987cb9 SIZE=1></foreach>
+				</div>
+
+				<div class="box">
+					<a name="2"></a>
+					<h3>省市简报</h3>
+					<foreach item="obj" name="dist">
+						<h4 style="color:#666">第{$obj.documents_id}篇：【{$obj.documents_title}】</h4>
+						<p>{$obj.documents_content}</p>
+						<hr style="FILTER: progid:DXImageTransform.Microsoft.Glow(color=#987cb9,strength=10)" width="80%" color=#987cb9 SIZE=1></foreach>
+				</div>
+
+				<div class="box">
+					<a name="3"></a>
+					<h3>联系方式</h3>
+					<p>
+						联系方式，能够达到对个人直接沟通的相关信息，多用于聊天、交流。也是一种告知方式的体现。
+							早期主要以普通信件形式体现：电报挂号、邮政编码、详细地址、固定电话号等。
+							随着信息技术的不断发展及更新，现今的联系方式表达更是异彩纷呈：QQ号码、MSN地址、飞信号码、电子邮箱、手机号码、百度用户名、微信等。
+							联系方式可以简单分为：实体地址、社交软件、社交网站、电话等。
+					</p>
+					<p>地址：浙江省台州市临海市东方大道605号</p>
+					<p>邮编：317000</p>
+					<p>电话：0574-99990000</p>
+					<p>传真：0576-93902010</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

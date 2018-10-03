@@ -1,0 +1,14 @@
+<div class="container">
+	<div class="row" style="min-height: 520px">
+		<div class="col-md-12 col-sm-12 col-xs-12 main-content">
+			<foreach item="obj" name="list">
+				<h3>{$obj.message_title}</h3>
+				<div class="outline">
+					<p>作者：{$obj.message_author} | {$obj.message_time}</p>
+				</div>
+				<!-- <img src="http://wushuigongzhi-uploads.stor.sinaapp.com{$obj.message_photo|substr = 13}" class="img-responsive img-thumbnail"> -->
+				<p>{$obj.message_content}</p>
+			</foreach>
+		</div>
+	</div>
+</div>

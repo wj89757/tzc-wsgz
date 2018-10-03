@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- 分别为：屏幕宽度和设备一直，初始缩放比例，最大缩放比例和禁止用户缩放 -->
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<title>治水官网</title>
+	<link rel="stylesheet" href="__PUBLIC__/css/bootstrap.min.css">
+	<link rel="stylesheet" href="__PUBLIC__/css/style.css">
+</head>
+<body>
+	<!-- 响应式导航条 -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a href="index.html" class="navbar-brand nodis">
+					<img src="__PUBLIC__/img/logo.png" alt="治来水logo">
+				</a>
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse" id="navbar-collapse">
+				<ul class="nav navbar-nav navbar-right nokx">
+					<li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></span> 首页</a></li>
+					<li><a href="news.html"><span class="glyphicon glyphicon-list"></span> 资讯</a></li>
+					<li><a href="case.html"><span class="glyphicon glyphicon-fire"></span> 地图</a></li>
+					<li><a href="about.html"><span class="glyphicon glyphicon-question-sign"></span> 关于</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="topimg">
+		<img src="__PUBLIC__/img/bg-top.jpg" class="img-responsive" alt="五水共治">
+	</div>
+	<!-- 响应式导航条结束 -->
+	<div class="tab1">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9 col">
+					<!-- 响应式轮播图 -->
+					<h3>图片一览</h3>
+					<div id="myCarousel" class="carousel slide">
+						<ol class="carousel-indicators">
+							<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+							<li data-target="#myCarousel" data-slide-to="1"></li>
+							<li data-target="#myCarousel" data-slide-to="2"></li>
+						</ol>
+						<div class="carousel-inner">
+							<div class="item active">
+								<img src="__PUBLIC__/img/slide1.jpg" alt="第一张">
+							</div>
+							<div class="item">
+								<img src="__PUBLIC__/img/slide2.jpg" alt="第二张">
+							</div>
+							<div class="item">
+								<img src="__PUBLIC__/img/slide3.jpg" alt="第三张">
+							</div>
+						</div>
+						<a href="#myCarousel" data-slide="prev" class="carousel-control left">
+							<span class="glyphicon glyphicon-chevron-left"></span>
+						</a>
+						<a href="#myCarousel" data-slide="next" class="carousel-control right">
+							<span class="glyphicon glyphicon-chevron-right"></span>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3 col">
+					<ul class="list-group">
+						<!-- 需要十一个li -->
+						<h3>时事热点</h3>
+						<li class="list-group-item">
+							<a href="#">	浙江省临海市召开“五水共治”工作动员大会,提出明确目标万余职工参与“五水共治”...
+							</a>
+						</li>
+						<li class="list-group-item">
+							<a href="#">
+								投身“五水共治” 建设美丽临海——致全体市民的倡议书...
+							</a>
+						</li>
+						<li class="list-group-item">
+							<a href="#">
+								今日临海数字报刊平台-浅谈我市“五水共治”存在的问题与对策...
+							</a>
+						</li>
+						<li class="list-group-item">
+							<a href="#">
+								临海:万余职工参与“五水共治”·台州日报...
+							</a>
+						</li>
+						<li class="list-group-item">
+							<a href="#">
+								关于印发《临海市教育系统“五水共治”工作实施方案》的通知...
+							</a>
+						</li>
+						<li class="list-group-item">
+							<a href="#">
+								临海:万余职工参与“五水共治”·台州日报...
+							</a>
+						</li>
+						<li class="list-group-item">
+							<a href="#">
+								关于印发《临海市教育系统“五水共治”工作实施方案》的通知...
+							</a>
+						</li>
+						<li class="list-group-item">
+							<a href="#">
+								临海:“河长日记”助推“五水共治” - 台州在线 台州网络电视台 ...
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h3 style="color: #666666;">相关网站链接</h3>
+			</div>
+		</div>
+	</div>
+	<div class="clearfix"></div>
+	<div id="case">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+					<div class="thumbnail">
+						<img src="__PUBLIC__/img/case1.jpg">
+						<div class="caption">
+							<h4><a>案例一</a></h4>
+							<p>多亏本机构的积极响应，与该企业有着紧密的合作，学生反馈良好</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+					<div class="thumbnail">
+						<img src="__PUBLIC__/img/case2.jpg">
+						<div class="caption">
+							<h4><a>案例二</a></h4>
+							<p>多亏本机构的积极响应，与该企业有着紧密的合作，学生反馈良好</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+					<div class="thumbnail">
+						<img src="__PUBLIC__/img/case4.png">
+						<div class="caption">
+							<h4><a>案例三</a></h4>
+							<p>多亏本机构的积极响应，与该企业有着紧密的合作，学生反馈良好</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+					<div class="thumbnail">
+						<img src="__PUBLIC__/img/case4.png">
+						<div class="caption">
+							<h4><a>案例四</a></h4>
+							<p>多亏本机构的积极响应，与该企业有着紧密的合作，学生反馈良好</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+					<div class="thumbnail">
+						<img src="__PUBLIC__/img/case2.jpg">
+						<div class="caption">
+							<h4><a>案例五</a></h4>
+							<p>多亏本机构的积极响应，与该企业有着紧密的合作，学生反馈良好</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+					<div class="thumbnail">
+						<img src="__PUBLIC__/img/case6.jpg">
+						<div class="caption">
+							<h4><a>案例六</a></h4>
+							<p>多亏本机构的积极响应，与该企业有着紧密的合作，学生反馈良好</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- footer底部 -->
+	<footer id="footer">
+		<div class="container">
+			<p><a href="http://www.baidu.com" target="_blank">合作加盟</a> | <a href="http://www.baidu.com" target="_blank">意见见解</a> | <a href="http://www.baidu.com" target="_blank">版权投诉</a> </p>
+			<p>浙 ICP 备 12345678. © 2009-2016 治来水团队，Powered by Bootstrap.</p>
+		</div>
+	</footer>
+	<script src="__PUBLIC__/js/jquery.min.js"></script>
+	<script src="__PUBLIC__/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		$(function()
+		{
+			// 设置自动播放
+			$('#myCarousel').carousel({
+				// 自动4秒播放
+				intervar: 2000,
+			});
+
+			// 设置左右大括号垂直居中
+			// $('.carousel-control').css('line-height',$('.carousel-inner img').height() + 'px');
+			// $(window).resize(function()
+			// {
+			// 	var $height = $('.carousel-inner img').eq(0).height() || $('.carousel-inner img').eq(1).height() || $('.carousel-inner img').eq(2).height();
+			// 	$('.carousel-control').css('line-height',$height + 'px');
+			// });
+			// 设置文字垂直居中
+			$(window).load(function(){
+				$('.text').eq(0).css('margin-top',($('.auto').eq(0).height() - $('.text').eq(0).height()) / 2 +'px');
+			});
+			$(window).resize(function() {
+				$('.text').eq(0).css('margin-top',($('.auto').eq(0).height() - $('.text').eq(0).height()) / 2 +'px');
+			});
+			$(window).load(function(){
+				$('.text').eq(1).css('margin-top',($('.auto').eq(1).height() - $('.text').eq(1).height()) / 2 +'px');
+			});
+			$(window).resize(function() {
+				$('.text').eq(1).css('margin-top',($('.auto').eq(1).height() - $('.text').eq(1).height()) / 2 +'px');
+			});
+		});
+	</script>
+</body>
+</html>

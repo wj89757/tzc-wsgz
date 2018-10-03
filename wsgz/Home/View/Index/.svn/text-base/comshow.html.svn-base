@@ -1,0 +1,22 @@
+<div class="jumbotron">
+	<div class="container">
+		<h1>投诉信息展示</h1>
+		<h4>市民投稿筛选展示，更多的采纳的大家的意见，通过筛选将显示到前台...</h4>
+	</div>
+</div>
+<section id="cd-timeline" class="cd-container">
+	<foreach item="item" name="hitlist">
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-picture">
+				<img src="__PUBLIC__/img/cd-icon-location.svg" alt="Picture"></div>
+			<div class="cd-timeline-content">
+				<h2>{$item.complian_title}</h2>
+				<p>{$item.complian_content}</p>
+
+				<img src="http://wushuigongzhi-uploads.stor.sinaapp.com{$item.complian_imag|substr = 13}"class="img-rounded img-responsive">
+				<span class="cd-date">{$item.complian_time}</span>
+			</div>
+		</div>
+	</foreach>
+</section>

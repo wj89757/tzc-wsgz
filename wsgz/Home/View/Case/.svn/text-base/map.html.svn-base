@@ -1,0 +1,40 @@
+{__NOLAYOUT__}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- 分别为：屏幕宽度和设备一直，初始缩放比例，最大缩放比例和禁止用户缩放 -->
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<title>治水官网-地图</title>
+	<link rel="stylesheet" href="__PUBLIC__/css/bootstrap.min.css">
+	<link rel="stylesheet" href="__PUBLIC__/css/style.css">
+</head>
+<body>
+	<include file="Public/nav" />
+
+	<div class="jumbotron">
+		<div class="container">
+			<h1>地图</h1>
+			<h4>全国各个省市河流污染程度数据可视化分析</h4>
+		</div>
+	</div>
+
+	<div id="case">
+		<div class="container">
+			<div class="row">
+				<!--定义页面图表容器-->
+				<!-- 必须制定容器的大小（height、width） -->
+				<div id="main" style="width: 98%; height: 500px;border: 1px solid #ccc; padding: 10px;"></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- footer底部 -->
+	<include file="Public/footer" />
+
+	<script src="__PUBLIC__/js/echarts-all.js"></script>
+	<script src="__PUBLIC__/js/jquery.min.js"></script>
+	<script src="__PUBLIC__/js/bootstrap.min.js"></script>
+	<script src="__PUBLIC__/js/myEchart.js"></script>
+</body>
+</html>

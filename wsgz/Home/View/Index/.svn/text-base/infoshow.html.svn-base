@@ -1,0 +1,45 @@
+<div class="jumbotron">
+	<div class="container">
+		<h1>综合信息会展</h1>
+		<h4>河道信息，节水企业，治水项目，沿线企业等...</h4>
+	</div>
+</div>
+<div id="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 hidden-xs">
+				<div class="list-group">
+					<a href="#1" class="list-group-item">1.河道信息</a>
+					<a href="#2" class="list-group-item">2.节水企业</a>
+					<a href="#3" class="list-group-item">3.治水项目</a>
+				</div>
+			</div>
+			<div class="col-md-9 about">
+				<div class="box">
+					<a name="1"></a>
+					<h3>河道信息</h3>
+					<foreach item="obj" name="rist">
+						<h4 style="color:#666">第{$obj.water_id}篇：【{$obj.water_name}】</h4>
+						<p>{$obj.water_introduction}</p>
+						<hr style="FILTER: progid:DXImageTransform.Microsoft.Glow(color=#987cb9,strength=10)" width="80%" color=#987cb9 SIZE=1></foreach>
+				</div>
+				<div class="box">
+					<a name="2"></a>
+					<h3>节水企业</h3>
+					<foreach item="obj" name="sist">
+						<h4 style="color:#666">第{$obj.saving_id}篇：【{$obj.saving_name}】</h4>
+						<p>{$obj.saving_content}</p>
+						<hr style="FILTER: progid:DXImageTransform.Microsoft.Glow(color=#987cb9,strength=10)" width="80%" color=#987cb9 SIZE=1></foreach>
+				</div>
+				<div class="box">
+					<a name="3"></a>
+					<h3>治水项目</h3>
+					<foreach item="obj" name="list">
+						<h4 style="color:#666">第{$obj.project_id}篇：【{$obj.project_name}】</h4>
+						<p>{$obj.project_content}</p>
+						<hr style="FILTER: progid:DXImageTransform.Microsoft.Glow(color=#987cb9,strength=10)" width="80%" color=#987cb9 SIZE=1></foreach>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
